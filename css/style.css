@@ -1,3 +1,4 @@
+
 body {
   background-color: #e1e5f8;
   font-family: Comic Sans MS, Comic Sans;
@@ -5,6 +6,7 @@ body {
   color: #737ccf;
   padding:0;
   margin:0;
+  -webkit-text-size-adjust: none;
 }
 img {
   width: 30vmin; 
@@ -13,15 +15,17 @@ img {
 }
 .frame {
   display:flex;
+  -webkit-text-size-adjust: none;
 
 }
 .frame > div {
   flex: 1; 
 }
 .name{
-  font-size: 40px;
+  font-size: 34px;
   padding:0;
   height:22px;
+  -webkit-text-size-adjust: none;
 }
 .intro-paragraph{
   text-align: center;
@@ -30,8 +34,9 @@ img {
   line-height: 200%;
 }
 .intro-paragraph p{
-  width:50%;
-  font-size: 20px
+  width:60%;
+  font-size: 17px;
+  -webkit-text-size-adjust: none;
 }
 .intro{
   text-align: center;
