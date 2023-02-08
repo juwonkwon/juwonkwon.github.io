@@ -28,8 +28,8 @@ img {
 .intro{
   text-align: center;
   justify-content: center;
-  padding: 0;
-  border: none;
+
+
   margin: 0;
 }
 .fa {
@@ -58,4 +58,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
 .fa-github {
   background: #111111;
   color: white;
+}
+
+.navigation{
+  background-color: #737ccf;
+  height: 40px;
+  font-size: 21px;
+  position: absolute;
+  top: 0; right: 0; left: 0;
+  border: 20px;
+  word-spacing: 7rem;
+  color:#e1e5f8;
+}
+.navigation a:link, a:visited{
+  color: #e1e5f8;
+  text-decoration: none;
 }
