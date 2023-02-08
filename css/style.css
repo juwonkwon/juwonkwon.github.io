@@ -3,6 +3,8 @@ body {
   font-family: Comic Sans MS, Comic Sans;
   text-align: center;
   color: #737ccf;
+  padding:0;
+  margin:0;
 }
 img {
   width: 30vmin; 
@@ -17,20 +19,23 @@ img {
   flex: 1; 
 }
 .name{
-  font-size: 34px;
+  font-size: 40px;
   padding:0;
   height:22px;
 }
-
 .intro-paragraph{
-  text-align:left;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  line-height: 200%;
+}
+.intro-paragraph p{
+  width:50%;
+  font-size: 20px
 }
 .intro{
   text-align: center;
   justify-content: center;
-
-
-  margin: 0;
 }
 .fa {
   padding: 10px;
@@ -67,10 +72,36 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
   position: absolute;
   top: 0; right: 0; left: 0;
   border: 20px;
-  word-spacing: 7rem;
+  word-spacing: 3rem;
   color:#e1e5f8;
+  text-align: center;
 }
-.navigation a:link, a:visited{
+ul {
+  padding: 0;
+  margin: auto;
+  list-style: none;
+  justify-content: center;
+  display: flex;
+}
+ul::after {
+  display: block;
+  content: '';
+  clear: both;
+}
+ul li {
+  float: left;
+}
+ul a {
+  display: block;
+  padding: 0.25em 1em;
+  text-decoration: none;
+  
+}
+.navigation a:link, .navigation a:visited{
   color: #e1e5f8;
   text-decoration: none;
+}
+.frame{
+  padding: 100px;
+  text-align: center;
 }
