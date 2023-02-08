@@ -73,13 +73,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
 .navigation{
   background-color: #737ccf;
   height: 40px;
-  font-size: 21px;
-  position: absolute;
-  top: 0; right: 0; left: 0;
-  border: 20px;
-  word-spacing: 3rem;
+  font-size: 20px;
   color:#e1e5f8;
   text-align: center;
+  -webkit-text-size-adjust: none;
 }
 ul {
   padding: 0;
@@ -100,7 +97,6 @@ ul a {
   display: block;
   padding: 0.25em 1em;
   text-decoration: none;
-  
 }
 .navigation a:link, .navigation a:visited{
   color: #e1e5f8;
