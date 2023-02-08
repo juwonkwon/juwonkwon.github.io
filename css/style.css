@@ -74,6 +74,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
   background-color: #737ccf;
   height: 40px;
   font-size: 20px;
+  top: 0; right: 0; left: 0;
+  border: 20px;
   color:#e1e5f8;
   text-align: center;
   -webkit-text-size-adjust: none;
