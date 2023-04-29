@@ -18,6 +18,7 @@ body{
     background-color: #D6D3FD;
     transition:all 300ms ease;
     z-index: 10;
+    color: #42309d;
 }
 #heading{
     font-size: 2.2vw;
@@ -25,6 +26,7 @@ body{
     width: 55vw;
     margin-left:10vw;
     margin-top:.5vw;
+    color: #42309d;
 }
 #favicon img{
     width: 3vw;
@@ -52,7 +54,7 @@ body{
 }
 li a{
     transition: .4s ease;
-    color:#8572FB;
+    color: #42309d;
 }
 a{
     text-decoration: none;
@@ -61,7 +63,7 @@ li:hover a{
     font-size: 1.3vw;
 }
 a:visited{
-    color:#8572FB;
+    color: #42309d;
 }
 
 /*css for about page*/
@@ -82,11 +84,13 @@ a:visited{
     font-size: 2.2vw;
     height:5vw;
     width: 55vw;
+    color: #42309d;
 }
 #dream{
     font-size: 2.2vw;
     height:6vw;
     width: 50vw;
+    color: #725fcf;
 }
 #bio{
     font-size: 1.3vw;
@@ -99,12 +103,11 @@ a:visited{
     margin-top:1vw;
 }
 #button{
-    background-color: #D6D3FD;
+    background-color: #725fcf;
     height:2.3vw;
     width:15vw;
     text-align: center;
-    border-color: #8572FB;
-    border-style:solid;
+    border:solid 1px #D6D3FD;
     margin-top:2vw;
     transition: .5s ease;
     margin-right: 1vw;
@@ -112,12 +115,12 @@ a:visited{
 #button p{
     padding-top:.5vw;
     margin:0;
-    color:#8572FB;
+    color:#D6D3FD;
     font-size: 1vw;
     transition: .3s ease;
 }
 a:hover #button{
-    box-shadow:.2em .2em .15em #8572FB;
+    box-shadow:.2em .2em .15em #725fcf;
     height:2.53vw;
     width:16.5vw;
     font-size:1.5vw;
@@ -141,13 +144,13 @@ a:hover #button{
     width: 25vw;
     height: 25vw;
     border-radius: 50%;
-    border:solid #8572FB;
+    border:solid #725fcf;
     transition: .3s ease;
 }
 #myimage:hover img {
     filter: brightness(120%);
     filter: contrast(120%);
-    filter: drop-shadow(.5em .5em .5em #8572FB);
+    filter: drop-shadow(.5em .5em .5em #725fcf);
     opacity: 0.7;
     width:26vw;
     height:26vw;
@@ -233,6 +236,7 @@ a:hover #button{
 }
 .description h3, .descriptionLeft h3{
     font-size: 1.8vw;
+    color: #725fcf;
 }
 .description p, .descriptionLeft p{
     font-size: 1.5vw;
@@ -282,11 +286,13 @@ a:hover #button{
     justify-content: space-around;
     padding-top:3vw;
     padding-left:4vw;
+    margin-left:.8vw;
 }
 .head{
     font-size:1.7vw;
     transition: .3s ease;
     height:4%;
+    color: #725fcf;
 }
 .head:hover{
     font-size: 2vw;
