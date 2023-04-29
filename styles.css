@@ -1,0 +1,360 @@
+/*same css mods for all pages*/
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    background-color: #D6D3FD;
+    color: #8572FB;
+    font-family: 'ABeeZee', sans-serif;
+}
+#navigation{
+    height:5vw;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right:0;
+    background-color: #D6D3FD;
+    transition:all 300ms ease;
+    z-index: 10;
+}
+#heading{
+    font-size: 2.2vw;
+    height:5vw;
+    width: 55vw;
+    margin-left:10vw;
+    margin-top:.5vw;
+}
+#favicon img{
+    width: 3vw;
+    height: 3vw;
+    padding-top: 1vw;
+    padding-left: 1vw;
+    opacity: 1;
+    transition: .4s ease;
+    opacity: 1;
+}
+#favicon:hover img {
+    opacity: 0.3;
+    width:3.3vw;
+    height:3.3vw;
+  }
+.menu{
+    margin-right:3vw;
+  }
+.menu li{
+    list-style-type: none;
+    display: inline;
+    margin-top:10vw;
+    margin-right:2.2vw;
+    font-size: 1.5vw;
+}
+li a{
+    transition: .4s ease;
+    color:#8572FB;
+}
+a{
+    text-decoration: none;
+}
+li:hover a{
+    font-size: 1.3vw;
+}
+a:visited{
+    color:#8572FB;
+}
+
+/*css for about page*/
+#intro{
+    display:flex;
+    flex-direction: row;
+    margin-bottom:15vw;
+    padding-top: 5vw;
+}
+#intro-paragraph{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    margin-left:10vw;
+    margin-top:.5vw;
+}
+#greetings{
+    font-size: 2.2vw;
+    height:5vw;
+    width: 55vw;
+}
+#dream{
+    font-size: 2.2vw;
+    height:6vw;
+    width: 50vw;
+}
+#bio{
+    font-size: 1.3vw;
+    height:8.5vw;
+    width:50vw;
+}
+#buttons{
+    display: flex;
+    flex-direction: row;
+    margin-top:1vw;
+}
+#button{
+    background-color: #D6D3FD;
+    height:2.3vw;
+    width:15vw;
+    text-align: center;
+    border-color: #8572FB;
+    border-style:solid;
+    margin-top:2vw;
+    transition: .5s ease;
+    margin-right: 1vw;
+}
+#button p{
+    padding-top:.5vw;
+    margin:0;
+    color:#8572FB;
+    font-size: 1vw;
+    transition: .3s ease;
+}
+a:hover #button{
+    box-shadow:.2em .2em .15em #8572FB;
+    height:2.53vw;
+    width:16.5vw;
+    font-size:1.5vw;
+  }
+  #button:hover p{
+    font-size:1.2vw;
+  }
+#personal-photo{
+    display:flex;
+    flex-direction: column;
+    align-content: flex-start;
+    padding-top:4vw;
+    padding-right:5vw;
+    width:130%
+}
+#myimage{
+    text-align: center;
+    margin-bottom: 4%;
+}
+#myimage img{
+    width: 25vw;
+    height: 25vw;
+    border-radius: 50%;
+    border:solid #8572FB;
+    transition: .3s ease;
+}
+#myimage:hover img {
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(.5em .5em .5em #8572FB);
+    opacity: 0.7;
+    width:26vw;
+    height:26vw;
+  }
+.fa {
+    padding: .7vw;
+    font-size: 2.1vw;
+    width: 1vw;
+    height: 1vw;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25%;
+    opacity: 1;
+    transition: .3s ease;
+    backface-visibility: hidden;
+  }
+  .fa:hover{
+    opacity: 0.3;
+    width: 1.2vw;
+    height: 1.2vw;
+  }
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+.fa-instagram {
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  }
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+.fa-github {
+    background: #111111;
+    color: white;
+  }
+#socials{
+    text-align: center;
+  }
+/*-------------------------------------------------*/
+/*css for project page*/
+#projects{
+    display:flex;
+    flex-direction: column;
+    margin-bottom:15vw;
+    padding-top: 5vw;
+}
+.project{
+    display: flex;
+    flex-direction: row;
+    margin-left:10vw;
+    margin-top:5vw;
+    justify-content: space-between;
+}
+.projectLeft{
+    display: flex;
+    flex-direction: row;
+    margin-left:10vw;
+    margin-top:3vw;
+    justify-content: space-between;
+
+}
+.description{
+    width:50vw;
+    margin-right: 10vw;
+    padding-left: 1vw;
+    transition: .3s ease;
+}
+.descriptionLeft{
+    width:50vw;
+    text-align:right;
+    padding-right: 1vw;
+    transition: .3s ease;
+}
+.description:hover, .descriptionLeft:hover{
+    border-style: solid;
+    border-color: 1vw #8572FB;
+    box-shadow:.5vw .5vw .5vw #8572FB;
+}
+.description h3, .descriptionLeft h3{
+    font-size: 1.8vw;
+}
+.description p, .descriptionLeft p{
+    font-size: 1.5vw;
+}
+.projectIcon img{
+    width:20vw;
+    height: 16vw;
+    border-radius:20%;
+    border-color: #8572FB;
+    border:1vw solid #8572FB;
+    transition: .5s ease;
+}
+.projectIconLeft img{
+    width:20vw;
+    height: 16vw;
+    border-radius:20%;
+    border-color: #8572FB;
+    border:1vw solid #8572FB;
+    margin-right: 11vw;
+    transition: .5s ease;
+}
+.projectIcon:hover img, .projectIconLeft:hover img{
+    filter: brightness(100%);
+    filter: contrast(100%);
+    filter: drop-shadow(.5vw .5vw .5vw #8572FB);
+    background-color: #8572FB;
+    opacity: 0.5;
+}
+#blank{
+    width:20vw;
+    height: 16vw;
+    background-color: #8572FB;
+    border-radius: 20%;
+}
+/*-------------------------------------------------*/
+/*css for skill page*/
+#skills{
+    display:flex;
+    flex-direction: column;
+    align-content: space-around;
+    margin-bottom:15vw;
+    padding-top: 5vw;
+}
+.cour{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top:3vw;
+    padding-left:4vw;
+}
+.head{
+    font-size:1.7vw;
+    transition: .3s ease;
+    height:4%;
+}
+.head:hover{
+    font-size: 2vw;
+}
+
+#langs{
+    text-align: left;
+    list-style: none;
+    background-image: url("/image/atom-svgrepo-com.svg");
+    background-repeat: no-repeat;
+	background-position: left;
+	background-size: 1.5vw;
+    padding-bottom: 1vw;
+    padding-top:1vw;
+    padding-left:4vw;
+    font-size:1.3vw;
+    transition: .3s ease;
+    width:15vw;
+}
+#langs:hover{
+    font-size: 2vw;
+    background-size: 2.3vw;
+}
+#techs{
+    text-align: left;
+    list-style: none;
+    background-image: url("/image/lightbulb-creative-svgrepo-com.svg");
+    background-repeat: no-repeat;
+	background-position: left;
+	background-size: 1.5vw;
+    padding-bottom: 1vw;
+    padding-top:1vw;
+    padding-left:4vw;
+    font-size:1.3vw;
+    transition: .3s ease;
+    width:15vw;
+}
+#techs:hover{
+    font-size: 2vw;
+    background-size: 2.3vw;
+}
+#courses{
+    text-align: left;
+    list-style: none;
+    background-image: url("/image/graduation-cap-svgrepo-com.svg");
+    background-repeat: no-repeat;
+	background-position: left;
+	background-size: 1.5vw;
+    padding-bottom: 1vw;
+    padding-top:1vw;
+    padding-left:4vw;
+    font-size:1.3vw;
+    transition: .3s ease;
+    width:20vw;
+}
+#courses:hover{
+    font-size: 2vw;
+    background-size: 2.3vw;
+}
+/*-------------------------------------------------*/
+/*css for interests page*/
+#interests{
+    margin-bottom:15vw;
+    padding-top: 5vw;
+}
+/*-------------------------------------------------*/
+/*css for contact page*/
+#contact{
+    margin-bottom:15vw;
+    padding-top: 5vw;
+}
