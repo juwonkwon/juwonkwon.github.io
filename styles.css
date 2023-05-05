@@ -154,7 +154,13 @@ a:hover #button{
     width:26vw;
     height:26vw;
   }
-#socials .fa {
+#socials{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin-left: 10vw;
+}
+#socialy .fa{
     padding: .7vw;
     font-size: 1vw;
     width: 1vw;
@@ -167,7 +173,7 @@ a:hover #button{
     transition: .3s ease;
     backface-visibility: hidden;
   }
-#socials:hover .fa{
+#socialy:hover a{
     font-size: 1.1vw;
     opacity: 0.3;
     width: 1.2vw;
