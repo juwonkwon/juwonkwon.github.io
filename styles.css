@@ -158,7 +158,7 @@ a:hover #button{
     display: flex;
     flex-direction: row;
     align-content: center;
-    margin-left: 10vw;
+    margin-left: vw;
 }
 #socialy .fa{
     padding: .7vw;
@@ -422,6 +422,7 @@ a:hover #button{
     opacity: 1;
     transition: .3s ease;
     backface-visibility: hidden;
+    font-family: 'ABeeZee', sans-serif;
 }
 #social{
     width:20vw;
@@ -431,7 +432,7 @@ a:hover #button{
     flex-direction: row;
 }
 #preview{
-    background-image: url(image/insta.PNG);
+    background-image: url(image/Capture.PNG);
     margin-top: 5vw;
     width:40vw;
     height:31vw;
