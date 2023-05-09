@@ -10,7 +10,7 @@ window.onscroll = function() {
     document.getElementById("navigation").style.top = "-5vw";
   }
   
-  previous= current;
+  previous = current;
   
 }
 var background_image = document.getElementById("preview");
