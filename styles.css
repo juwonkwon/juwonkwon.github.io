@@ -158,7 +158,7 @@ a:hover #button{
     display: flex;
     flex-direction: row;
     align-content: center;
-    margin-left: vw;
+    margin-left: 9.5vw;
 }
 #socialy .fa{
     padding: .7vw;
@@ -405,27 +405,28 @@ a:hover #button{
 #contacts{
     display: flex;
     flex-direction: column;
-    gap: 1vw;
+    gap: 8vw;
     margin-top: 5vw;
     margin-left:10vw;
 }
-#contacts .fa{
+#contacts .la{
     padding: 2vw;
     margin-top:0vw;
     font-size: 3vw;
     width: 20vw;
-    height: 3vw;
+    height: 0vw;
     color:#D6D3FD;
     text-align: center;
     text-decoration: none;
-    border-radius: 5vw;
+    border-radius: 4vw;
     opacity: 1;
     transition: .3s ease;
     backface-visibility: hidden;
     font-family: 'ABeeZee', sans-serif;
 }
-#social{
-    width:20vw;
+#contacts div{
+    width: 20vw;
+    height: 0vw;
 }
 #separate{
     display:flex;
@@ -439,9 +440,24 @@ a:hover #button{
     margin-left: 10vw;
     border-radius:5vw;
 }
-#social:hover .fa{
-    opacity:0.3;
-    width: 22vw;
-    height: 3.3vw;
-    font-size: 3.3vw;
-}
+
+.la-facebook {
+    background: #3B5998;
+    color: white;
+  }
+.la-instagram {
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+
+  }
+.la-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+.la-github {
+    background: #111111;
+    color: white;
+  }
